@@ -1,0 +1,6 @@
+service: sls-22-feb
+frameworkVersion: 3
+
+provider:
+  name: aws
+  runtime: nodejs18.x
