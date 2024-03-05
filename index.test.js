@@ -1,10 +1,10 @@
 // Import the handler
-const { handler } = require('./index');
+const { delfrinando } = require('./index');
 
-describe('handler', () => {
+describe('delfrinando', () => {
   it('returns the correct HTTP response', async () => {
     // Call the handler function with a mock event object
-    const response = await handler({});
+    const response = await delfrinando({});
 
     // Define the expected response
     const expectedResponse = {

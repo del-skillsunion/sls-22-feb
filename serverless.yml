@@ -7,19 +7,24 @@ provider:
   region: ap-southeast-1
 
 functions:
-  api:
-    handler: index.handler
+  delfrinando:
+    handler: index.delfrinando
     events:
       - httpApi:
           path: /delfrinando
-          method: post
+          method: get
 
   pranata:
-    handler: index.handler
+    handler: index.pranata
     events:
       - httpApi:
           path: /pranata
-          method: post
+          method: get
+
+package:
+  exclude:
+    - node_modules/**
+    - venv/**
 
 plugins:
   - serverless-offline
