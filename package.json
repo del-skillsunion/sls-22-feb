@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "serverless": "^3.38.0",
-    "snyk": "^1.1281.0"
+    "snyk": "^1.1282.1"
   },
   "devDependencies": {
     "jest": "^29.7.0",
